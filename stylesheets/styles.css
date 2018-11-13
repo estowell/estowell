@@ -345,7 +345,7 @@ footer {
 
 /* Style the links inside the navigation bar */
 .nav a {
-    float: top;
+    float: left;
     color: #1F497D;
     text-align: center;
     padding: 14px 16px;
