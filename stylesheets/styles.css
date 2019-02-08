@@ -323,6 +323,7 @@ footer {
   }
 }
 
+/*Resume and CV */
 .resume-heading {
   font-size: 1.4em;
   color: #1F497D;
@@ -342,3 +343,30 @@ footer {
 .resume-item-timeframe {
   font-style: italic;
 }
+
+/*Project Page */
+
+.project-heading {
+  font-size: 1.4em;
+  color: #1F497D;
+}
+.project-section {
+  padding: 0;
+}
+
+.project-item {
+  list-style-type: none;
+}
+
+.project-item-title {
+}
+
+.project-item-timeframe {
+  font-style: italic;
+}
+
+.project-img {
+  font-style: italic;
+  margin: 0px 0px 20px;
+}
+
