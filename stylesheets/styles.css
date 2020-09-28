@@ -110,6 +110,7 @@ a:hover small {
 .wrapper {
   width:860px;
   margin:0 auto;
+  padding-top: 1px;
 }
 
 blockquote {
@@ -228,6 +229,8 @@ section {
   float:right;
   padding-bottom:50px;
 }
+
+
 
 small {
   font-size:11px;
@@ -356,6 +359,7 @@ footer {
 
 .project-item {
   list-style-type: none;
+  max-width: 700px;
 }
 
 .project-item-title {
@@ -367,6 +371,34 @@ footer {
 
 .project-img {
   font-style: italic;
-  margin: 0px 0px 20px;
+  margin: 0px 5px 20px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #222;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #069;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #069;
+  color: white;
 }
 
